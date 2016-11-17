@@ -8,7 +8,7 @@
  |  |   P  P   Y Y     T    H   H   I    A A     This is PYTHIA version 8.219      |  | 
  |  |   PPP     Y      T    HHHHH   I   AAAAA    Last date of change: 10 May 2016  |  | 
  |  |   P       Y      T    H   H   I   A   A                                      |  | 
- |  |   P       Y      T    H   H  III  A   A    Now is 13 Nov 2016 at 19:11:59    |  | 
+ |  |   P       Y      T    H   H  III  A   A    Now is 17 Nov 2016 at 13:31:52    |  | 
  |  |                                                                              |  | 
  |  |   Torbjorn Sjostrand;  Department of Astronomy and Theoretical Physics,      |  | 
  |  |      Lund University, Solvegatan 14A, SE-223 62 Lund, Sweden;                |  | 
@@ -66,7 +66,7 @@ CT10nlo PDF set, member #0, version 4; LHAPDF ID = 11000
 
  *-------  PYTHIA Process Initialization  --------------------------*
  |                                                                  |
- | We collide e+ with p+ at a CM energy of 1.735e+01 GeV            |
+ | We collide e- with p+ at a CM energy of 1.735e+01 GeV            |
  |                                                                  |
  |------------------------------------------------------------------|
  |                                                    |             |
@@ -113,7 +113,7 @@ CT10nlo PDF set, member #0, version 4; LHAPDF ID = 11000
  | Beams:eA                                      |                  8.67500 |     7000.000         0.0             | 
  | Beams:eB                                      |                  8.67500 |     7000.000         0.0             | 
  | Beams:frameType                               |                        2 |            1           1           5 | 
- | Beams:idA                                     |                      -11 |         2212                         | 
+ | Beams:idA                                     |                       11 |         2212                         | 
  | DireSpace:forceMassiveMap                     |                       on |          off                         | 
  | Main:numberOfEvents                           |                    10000 |         1000           0             | 
  | Next:numberCount                              |                        0 |         1000           0             | 
@@ -144,10 +144,10 @@ CT10nlo PDF set, member #0, version 4; LHAPDF ID = 11000
 
  --------  PYTHIA Info Listing  ---------------------------------------- 
  
- Beam A: id =    -11, pz =  8.650e+00, e =  8.650e+00, m =  5.110e-04.
+ Beam A: id =     11, pz =  8.650e+00, e =  8.650e+00, m =  5.110e-04.
  Beam B: id =   2212, pz = -8.650e+00, e =  8.700e+00, m =  9.383e-01.
 
- In 1: id =  -11, x =  1.000e+00, pdf =  1.000e+00 at Q2 =  2.568e+00.
+ In 1: id =   11, x =  1.000e+00, pdf =  1.000e+00 at Q2 =  2.568e+00.
  In 2: id =   -2, x =  6.130e-02, pdf =  1.393e-01 at same Q2.
 
  Subprocess f f' -> f f' (t-channel gamma*/Z0) with code 211 is 2 -> 2.
@@ -166,13 +166,13 @@ CT10nlo PDF set, member #0, version 4; LHAPDF ID = 11000
  
     no        id   name            status     mothers   daughters     colours      p_x        p_y        p_z         e          m 
      0        90   (system)           -11     0     0     0     0     0     0      0.000      0.000      0.051     17.350     17.350
-     1       -11   (e+)               -12     0     0     3     0     0     0      0.000      0.000      8.675      8.675      0.001
+     1        11   (e-)               -12     0     0     3     0     0     0      0.000      0.000      8.675      8.675      0.001
      2      2212   (p+)               -12     0     0     4     0     0     0      0.000      0.000     -8.624      8.675      0.938
-     3       -11   (e+)               -21     1     0     5     6     0     0      0.000      0.000      8.700      8.700      0.000
+     3        11   (e-)               -21     1     0     5     6     0     0      0.000      0.000      8.700      8.700      0.000
      4        -2   (ubar)             -21     2     0     5     6     0   101      0.000      0.000     -0.530      0.530      0.000
-     5       -11   e+                  23     3     4     0     0     0     0     -1.016     -1.240      7.158      7.335      0.001
+     5        11   e-                  23     3     4     0     0     0     0     -1.016     -1.240      7.158      7.335      0.001
      6        -2   ubar                23     3     4     0     0     0   101      1.016      1.240      1.012      1.896      0.000
-                                   Charge sum:  0.333           Momentum sum:      0.000      0.000      8.170      9.231      4.295
+                                   Charge sum: -1.667           Momentum sum:      0.000      0.000      8.170      9.231      4.295
 
  --------  End PYTHIA Event Listing  -----------------------------------------------------------------------------------------------
 
@@ -180,11 +180,11 @@ CT10nlo PDF set, member #0, version 4; LHAPDF ID = 11000
  
     no        id   name            status     mothers   daughters     colours      p_x        p_y        p_z         e          m 
      0        90   (system)           -11     0     0     0     0     0     0      0.000      0.000      0.051     17.350     17.350
-     1       -11   (e+)               -12     0     0     3     0     0     0      0.000     -0.000      8.675      8.675      0.001
+     1        11   (e-)               -12     0     0     3     0     0     0      0.000     -0.000      8.675      8.675      0.001
      2      2212   (p+)               -12     0     0     7     0     0     0      0.000     -0.000     -8.624      8.675      0.938
-     3       -11   (e+)               -21     1     0     5     6     0     0      0.000      0.000      8.700      8.700      0.000
+     3        11   (e-)               -21     1     0     5     6     0     0      0.000      0.000      8.700      8.700      0.000
      4        -2   (ubar)             -21     7     7     5     6     0   101      0.000      0.000     -0.530      0.530      0.000
-     5       -11   e+                  23     3     4     0     0     0     0     -1.016     -1.240      7.158      7.335      0.001
+     5        11   e-                  23     3     4     0     0     0     0     -1.016     -1.240      7.158      7.335      0.001
      6        -2   (ubar)             -23     3     4     8     8     0   101      1.016      1.240      1.012      1.896      0.000
      7        -2   (ubar)             -61     2     0     4     4     0   101     -0.157      2.672      3.259      4.217      0.000
      8        -2   (ubar)             -62     6     6    12    12     0   101     -1.779      0.367      0.111      1.820      0.000
@@ -201,7 +201,7 @@ CT10nlo PDF set, member #0, version 4; LHAPDF ID = 11000
     19        22   gamma               91    15     0     0     0     0     0     -0.043     -0.074      0.059      0.103      0.000
     20        22   gamma               91    17     0     0     0     0     0      0.100     -0.059     -0.084      0.143      0.000
     21        22   gamma               91    17     0     0     0     0     0      0.315     -0.133     -0.600      0.690      0.000
-                                   Charge sum:  2.000           Momentum sum:      0.000      0.000      0.051     17.350     17.350
+                                   Charge sum:  0.000           Momentum sum:      0.000      0.000      0.051     17.350     17.350
 
  --------  End PYTHIA Event Listing  -----------------------------------------------------------------------------------------------
  PYTHIA Error in MiniStringFragmentation::fragment: no 1- or 2-body state found above mass threshold  
@@ -217,9 +217,9 @@ CT10nlo PDF set, member #0, version 4; LHAPDF ID = 11000
  |                                                    |                                   |                        |
  |-----------------------------------------------------------------------------------------------------------------|
  |                                                    |                                   |                        |
- | f f' -> f f' (t-channel gamma*/Z0)             211 |       34914      10000       9817 |   2.659e-04  1.490e-06 |
+ | f f' -> f f' (t-channel gamma*/Z0)             211 |       34889      10000       9817 |   2.660e-04  1.490e-06 |
  |                                                    |                                   |                        |
- | sum                                                |       34914      10000       9817 |   2.659e-04  1.490e-06 |
+ | sum                                                |       34889      10000       9817 |   2.660e-04  1.490e-06 |
  |                                                                                                                 |
  *-------  End PYTHIA Event and Cross Section Statistics ----------------------------------------------------------*
 
@@ -228,15 +228,15 @@ CT10nlo PDF set, member #0, version 4; LHAPDF ID = 11000
  |  times   message                                                                                                | 
  |                                                                                                                 | 
  |    183   Abort from Pythia::next: parton+hadronLevel failed; giving up                                          | 
- |   4609   Error in BeamRemnants::setOneRemnKinematics: too big beam remnant invariant mass                       | 
- |   1693   Error in MiniStringFragmentation::fragment: no 1- or 2-body state found above mass threshold           | 
- |   1693   Error in Pythia::next: hadronLevel failed; try again                                                   | 
- |    224   Error in Pythia::next: partonLevel failed; try again                                                   | 
+ |   4631   Error in BeamRemnants::setOneRemnKinematics: too big beam remnant invariant mass                       | 
+ |   1688   Error in MiniStringFragmentation::fragment: no 1- or 2-body state found above mass threshold           | 
+ |   1688   Error in Pythia::next: hadronLevel failed; try again                                                   | 
+ |    227   Error in Pythia::next: partonLevel failed; try again                                                   | 
  |                                                                                                                 | 
  *-------  End PYTHIA Error and Warning Messages Statistics  ------------------------------------------------------* 
 
 
-  2016-11-13 19:12       njets
+  2016-11-17 13:31       njets
 
         2.70*10^-4  6      
         2.60*10^-4  X      
@@ -269,8 +269,8 @@ CT10nlo PDF set, member #0, version 4; LHAPDF ID = 11000
           Contents         
             *10^-4  2000000
             *10^-5  6000000
-            *10^-6  5000000
-            *10^-7  9000000
+            *10^-6  6000000
+            *10^-7  0000000
 
           Low edge  -      
             *10^ 0  0012345
@@ -278,4 +278,4 @@ CT10nlo PDF set, member #0, version 4; LHAPDF ID = 11000
             *10^-2  0000000
 
    Entries  =        9817    Mean =  0.0000e+00    Underflow =  0.0000e+00    Low edge  = -5.0000e-01
-   All chan =  2.6590e-04    Rms  =  0.0000e+00    Overflow  =  0.0000e+00    High edge =  6.5000e+00
+   All chan =  2.6599e-04    Rms  =  0.0000e+00    Overflow  =  0.0000e+00    High edge =  6.5000e+00
