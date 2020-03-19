@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/w/general-scifs17exp/JAM//moffatea/fitpack/fitlib/maxlike.py", line 432, in <module>
+    ,args.prior\
+  File "/w/general-scifs17exp/JAM//moffatea/fitpack/fitlib/maxlike.py", line 386, in run
+    par,_chi2=self.get_par(i,step['dep'])
+  File "/w/general-scifs17exp/JAM//moffatea/fitpack/fitlib/maxlike.py", line 286, in get_par
+    guess=self.get_guess(dep)
+  File "/w/general-scifs17exp/JAM//moffatea/fitpack/fitlib/maxlike.py", line 256, in get_guess
+    prior_order=self.order[istep]
+KeyError: 1
+slurmstepd: error: *** JOB 9424917 ON qcd12s0262 CANCELLED AT 2020-01-23T18:03:32 ***

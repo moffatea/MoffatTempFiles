@@ -1,0 +1,72 @@
+JAM FITTER
+count = 61905
+elapsed time(mins)=141.378136
+shifts  = 1
+npts    = 231
+chi2    = 228.149308
+rchi2   = 0.000000
+nchi2   = 73.254787
+chi2tot = 301.404096
+dchi2(iter)  = 0.000003
+dchi2(local) = 0.000000
+
+reaction: sia
+filters: z>0.2 and z<0.9
+    idx rs       col       had npts      chi2 chi2-npts chi2/npts     rchi2     nchi2
+   1001 12     TASSO      pion    1      1.20      0.20      1.20      0.00      0.37
+   1002 14     TASSO      pion    4     12.18      8.18      3.04      0.00      0.00
+   1003 22     TASSO      pion    4      3.42     -0.58      0.86      0.00      0.20
+   1005 34     TASSO      pion    5      5.03      0.03      1.01      0.00      0.27
+   1006 44     TASSO      pion    3      4.25      1.25      1.42      0.00      0.00
+   1007 29       TPC      pion    3      4.25      1.25      1.42      0.00      0.00
+   1008 29       TPC      pion    9     22.80     13.80      2.53      0.00      0.00
+   1010 29    TPC(c)      pion    3      1.82     -1.18      0.61      0.00      0.00
+   1011 29    TPC(b)      pion    3      7.49      4.49      2.50      0.00      0.00
+   1013 58     TOPAZ      pion    1      0.09     -0.91      0.09      0.00      0.00
+   1014 91       SLD      pion   15     29.40     14.40      1.96      0.00      0.11
+   1016 91    SLD(c)      pion   15     13.17     -1.83      0.88      0.00      0.07
+   1017 91    SLD(b)      pion   15     14.83     -0.17      0.99      0.00      0.00
+   1018 91     ALEPH      pion    5      3.21     -1.79      0.64      0.00      0.03
+   1019 91      OPAL      pion    6     15.38      9.38      2.56      0.00      0.00
+   1023 91   OPAL(c)      pion    5      7.73      2.73      1.55      0.00      6.90
+   1024 91   OPAL(b)      pion    5     13.25      8.25      2.65      0.00      7.04
+   1025 91    DELPHI      pion    6     14.89      8.89      2.48      0.00      0.00
+   1027 91 DELPHI(b)      pion    6      7.08      1.08      1.18      0.00      0.00
+   1028 11     BABAR      pion   27      4.60    -22.40      0.17      0.00      0.11
+   1029 11     BELLE      pion   70      4.70    -65.30      0.07      0.00     56.68
+   1030 10     ARGUS      pion   20     37.39     17.39      1.87      0.00      1.46
+1     ffpion        b1 N   5.15544e-01
+2     ffpion        b1 a  -1.73110e+00
+3     ffpion        b1 b   3.63282e+00
+4     ffpion        c1 N   3.58168e-01
+5     ffpion        c1 a  -1.37435e+00
+6     ffpion        c1 b   3.26229e+00
+7     ffpion        d1 N   1.27840e-01
+8     ffpion        d1 a   2.50613e-01
+9     ffpion        d1 b   7.20807e+00
+10     ffpion        d1 c   1.33273e-02
+11     ffpion        d1 d   3.31850e+00
+12     ffpion        g1 N   1.33163e-01
+13     ffpion        g1 a   1.44992e+00
+14     ffpion        g1 b   1.00000e+01
+15     ffpion        g1 c   6.90243e+00
+16     ffpion        g1 d   1.82967e-01
+17     ffpion        u1 N   7.08278e-01
+18     ffpion        u1 a  -1.51136e+00
+19     ffpion        u1 b   9.20008e-01
+20     ffpion        u1 c   3.22333e-27
+21     ffpion        u1 d   1.18136e-33
+22       norm        sia       1024  1.26528e+00
+23       norm        sia       1028  9.96684e-01
+24       norm        sia       1029  8.94599e-01
+25       norm        sia       1030  1.02175e+00
+26       norm        sia       1001  1.12114e+00
+27       norm        sia       1002  1.00360e+00
+28       norm        sia       1003  1.02801e+00
+29       norm        sia       1005  1.03131e+00
+30       norm        sia       1006  9.96263e-01
+31       norm        sia       1014  9.96645e-01
+32       norm        sia       1016  9.97313e-01
+33       norm        sia       1017  9.99958e-01
+34       norm        sia       1018  9.94827e-01
+35       norm        sia       1023  1.26276e+00

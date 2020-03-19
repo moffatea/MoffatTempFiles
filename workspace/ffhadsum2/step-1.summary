@@ -1,0 +1,77 @@
+JAM FITTER
+count = 1058
+elapsed time(mins)=2.837895
+shifts  = 1
+npts    = 459
+chi2    = 633.339393
+rchi2   = 0.000000
+nchi2   = 107.858839
+chi2tot = 741.198233
+dchi2(iter)  = 0.000000
+dchi2(local) = 0.000000
+
+reaction: sia
+filters: hadron=="pion" and ((RS<91.2 and z>0.1) or (RS>=91.2 and z>0.05))
+    idx rs       col       had npts      chi2 chi2-npts chi2/npts     rchi2     nchi2
+   1001 12     TASSO      pion    2      1.09     -0.91      0.54      0.00      0.36
+   1002 14     TASSO      pion    7     14.08      7.08      2.01      0.00      0.29
+   1003 22     TASSO      pion    7      5.37     -1.63      0.77      0.00      0.70
+   1005 34     TASSO      pion    8      7.33     -0.67      0.92      0.00      0.56
+   1006 44     TASSO      pion    5      6.76      1.76      1.35      0.00      0.09
+   1007 29       TPC      pion    6      3.37     -2.63      0.56      0.00      0.00
+   1008 29       TPC      pion   12     18.42      6.42      1.54      0.00      0.00
+   1009 29  TPC(uds)      pion    6      2.53     -3.47      0.42      0.00      0.00
+   1010 29    TPC(c)      pion    6      3.04     -2.96      0.51      0.00      0.00
+   1011 29    TPC(b)      pion    6      8.23      2.23      1.37      0.00      0.00
+   1012 29       HRS      pion    2      2.65      0.65      1.33      0.00      0.00
+   1013 58     TOPAZ      pion    4      2.80     -1.20      0.70      0.00      0.00
+   1014 91       SLD      pion   29     15.97    -13.03      0.55      0.00      0.02
+   1015 91  SLD(uds)      pion   29     51.52     22.52      1.78      0.00      0.02
+   1016 91    SLD(c)      pion   29     24.71     -4.29      0.85      0.00      0.26
+   1017 91    SLD(b)      pion   29     91.45     62.45      3.15      0.00      1.58
+   1018 91     ALEPH      pion   22     25.69      3.69      1.17      0.00      0.24
+   1019 91      OPAL      pion   22     37.64     15.64      1.71      0.00      0.00
+   1020 91   OPAL(u)      pion    5      4.49     -0.51      0.90      0.00      1.84
+   1021 91   OPAL(d)      pion    5      4.13     -0.87      0.83      0.00      1.73
+   1022 91   OPAL(s)      pion    5     20.90     15.90      4.18      0.00      7.34
+   1023 91   OPAL(c)      pion    5      8.71      3.71      1.74      0.00      7.52
+   1024 91   OPAL(b)      pion    5     59.40     54.40     11.88      0.00      5.45
+   1025 91    DELPHI      pion   17     25.72      8.72      1.51      0.00      0.00
+   1026 91DELPHI(uds)      pion   17     15.65     -1.35      0.92      0.00      0.00
+   1027 91 DELPHI(b)      pion   17     48.78     31.78      2.87      0.00      0.00
+   1028 11     BABAR      pion   39     54.89     15.89      1.41      0.00      4.71
+   1029 11     BELLE      pion   78     16.17    -61.83      0.21      0.00     73.83
+   1030 10     ARGUS      pion   35     51.85     16.85      1.48      0.00      1.32
+1     ffpion        b1 N   2.67056e-01
+2     ffpion        b1 a  -1.29500e+00
+3     ffpion        b1 b   5.29754e+00
+4     ffpion        c1 N   2.03477e-01
+5     ffpion        c1 a  -7.94289e-01
+6     ffpion        c1 b   4.07025e+00
+7     ffpion        d1 N   1.38420e-01
+8     ffpion        d1 a   3.76683e-01
+9     ffpion        d1 b   6.15614e+00
+10     ffpion        g1 N   1.80352e-01
+11     ffpion        g1 a   2.00000e+00
+12     ffpion        g1 b   1.00000e+01
+13     ffpion        u1 N   4.80729e-01
+14     ffpion        u1 a  -1.33808e+00
+15     ffpion        u1 b   9.04998e-01
+16       norm        sia       1024  1.23348e+00
+17       norm        sia       1028  9.78740e-01
+18       norm        sia       1029  8.79710e-01
+19       norm        sia       1030  1.02069e+00
+20       norm        sia       1001  1.11960e+00
+21       norm        sia       1002  9.54128e-01
+22       norm        sia       1003  1.05276e+00
+23       norm        sia       1005  1.04470e+00
+24       norm        sia       1006  1.01776e+00
+25       norm        sia       1014  1.00156e+00
+26       norm        sia       1015  9.98674e-01
+27       norm        sia       1016  9.94878e-01
+28       norm        sia       1017  1.01258e+00
+29       norm        sia       1018  9.85253e-01
+30       norm        sia       1020  1.13578e+00
+31       norm        sia       1021  1.13159e+00
+32       norm        sia       1022  1.27099e+00
+33       norm        sia       1023  1.27416e+00

@@ -1,0 +1,345 @@
+('active', 'pdf')
+
+--step 1: npQCD objects = pdf , datasets = idis , tmc = False , ht = False
+loading idis data sets 10016
+loading idis data sets 10017
+loading idis data sets 10020
+loading idis data sets 10021
+loading idis data sets 10010
+loading idis data sets 10011
+Loading DIS tables...
+10016 has norm uncertainty
+10017 has norm uncertainty
+10020 has norm uncertainty
+10010 has norm uncertainty
+10011 has norm uncertainty
+[H[J[H[J['pdf']
+JAM FITTER                                                                                                                | 1        pdf       db1 N   1.73299e-02
+count = 100                                                                                                               | 2        pdf       db1 a  -4.66862e-01
+elapsed time(mins)=0.455147                                                                                               | 3        pdf       db1 b   7.63884e+00
+shifts  = 2                                                                                                               | 4        pdf       dv1 a  -2.29591e-01
+npts    = 1495                                                                                                            | 5        pdf       dv1 b   8.03406e+00
+chi2    = 36631.257457                                                                                                    | 6        pdf        g1 a   2.86278e-01
+rchi2   = 8456.034474                                                                                                     | 7        pdf        g1 b   2.35236e+00
+nchi2   = 259.756346                                                                                                      | 8        pdf        s1 N   6.19250e-03
+chi2tot = 45347.048277                                                                                                    | 9        pdf        s1 a  -9.40272e-01
+dchi2(iter)  = 0.000000                                                                                                   | 10        pdf        s1 b   9.77725e+00
+dchi2(local) = -inf                                                                                                       | 11        pdf      sea1 N   2.09662e-02
+pdf dv(1):1.000000                                                                                                        | 12        pdf      sea1 a  -1.69041e+00
+pdf db-ub(2):-0.081039                                                                                                    | 13        pdf      sea1 b   8.71489e+00
+pdf msr:1.000000                                                                                                          | 14        pdf       ub1 N   9.83692e-02
+pdf db-ub(1):-1.281169                                                                                                    | 15        pdf       ub1 a  -5.58026e-01
+pdf uv(1):2.000000                                                                                                        | 16        pdf       ub1 b   5.65388e+00
+pdf s-sb(1):0.000000                                                                                                      | 17        pdf       uv1 a  -2.02231e-01
+pdf s-sb(2):0.000000                                                                                                      | 18        pdf       uv1 b   2.24030e+00
+                                                                                                                          | 19       norm       idis      10016  1.08444e+00
+reaction: unpol DIS                                                                                                       | 20       norm       idis      10017  1.04836e+00
+filters: Q2>1.690000                                                                                                      | 21       norm       idis      10010  1.17866e+00
+filters: W2>10.000000                                                                                                     | 22       norm       idis      10011  1.15225e+00
+    idx tar        col  npts       chi2  chi2-npts      rchi2      nchi2                                                  | 23       norm       idis      10020  1.19662e+00
+  10016   p      BCDMS   348    4022.18    3674.18    3557.05       7.92                                                  | 
+  10017   d      BCDMS   254    2575.31    2321.31     781.59       2.60                                                  | 
+  10020   p        NMC   273    4143.52    3870.52    1095.04      96.65                                                  | 
+  10021 d/p        NMC   174    3504.02    3330.02    3022.35       0.00                                                  | 
+  10010   p       SLAC   218   16372.12   16154.12       0.00      72.38                                                  | 
+  10011   d       SLAC   228    6014.10    5786.10       0.00      80.21                                                  | 
+['pdf']
+JAM FITTER                                                                                                                | 1        pdf       db1 N   4.84435e-02
+count = 200                                                                                                               | 2        pdf       db1 a  -6.95863e-01
+elapsed time(mins)=0.918514                                                                                               | 3        pdf       db1 b   3.99474e+00
+shifts  = 3                                                                                                               | 4        pdf       dv1 a  -2.70292e-01
+npts    = 1495                                                                                                            | 5        pdf       dv1 b   4.51487e+00
+chi2    = 3578.669709                                                                                                     | 6        pdf        g1 a  -3.63461e-01
+rchi2   = 202.830840                                                                                                      | 7        pdf        g1 b   7.02665e+00
+nchi2   = 220.364343                                                                                                      | 8        pdf        s1 N   3.43122e-03
+chi2tot = 4001.864893                                                                                                     | 9        pdf        s1 a  -4.91542e-01
+dchi2(iter)  = inf                                                                                                        | 10        pdf        s1 b   9.98842e+00
+dchi2(local) = -inf                                                                                                       | 11        pdf      sea1 N   6.26273e-03
+pdf dv(1):1.000000                                                                                                        | 12        pdf      sea1 a  -1.55666e+00
+pdf db-ub(2):-0.005165                                                                                                    | 13        pdf      sea1 b   7.22559e+00
+pdf msr:1.000000                                                                                                          | 14        pdf       ub1 N   5.36085e-02
+pdf db-ub(1):-0.026769                                                                                                    | 15        pdf       ub1 a  -7.75754e-01
+pdf uv(1):2.000000                                                                                                        | 16        pdf       ub1 b   2.41826e+00
+pdf s-sb(1):-0.000000                                                                                                     | 17        pdf       uv1 a  -2.43127e-01
+pdf s-sb(2):-0.000000                                                                                                     | 18        pdf       uv1 b   2.93957e+00
+                                                                                                                          | 19       norm       idis      10016  1.09788e+00
+reaction: unpol DIS                                                                                                       | 20       norm       idis      10017  1.11066e+00
+filters: Q2>1.690000                                                                                                      | 21       norm       idis      10010  1.18171e+00
+filters: W2>10.000000                                                                                                     | 22       norm       idis      10[H[J[H[J011  1.15563e+00
+    idx tar        col  npts       chi2  chi2-npts      rchi2      nchi2                                                  | 23       norm       idis      10020  1.12237e+00
+  10016   p      BCDMS   348     948.48     600.48      78.97      10.64                                                  | 
+  10017   d      BCDMS   254     591.38     337.38      42.74      13.61                                                  | 
+  10020   p        NMC   273     794.09     521.09      55.55      37.43                                                  | 
+  10021 d/p        NMC   174     357.61     183.61      25.57       0.00                                                  | 
+  10010   p       SLAC   218     465.06     247.06       0.00      74.88                                                  | 
+  10011   d       SLAC   228     422.06     194.06       0.00      83.80                                                  | 
+['pdf']
+JAM FITTER                                                                                                                | 1        pdf       db1 N   2.96514e-02
+count = 300                                                                                                               | 2        pdf       db1 a  -4.02716e-01
+elapsed time(mins)=1.376231                                                                                               | 3        pdf       db1 b   3.94352e+00
+shifts  = 2                                                                                                               | 4        pdf       dv1 a  -2.75692e-01
+npts    = 1495                                                                                                            | 5        pdf       dv1 b   4.42755e+00
+chi2    = 3268.329793                                                                                                     | 6        pdf        g1 a  -1.77550e-01
+rchi2   = 77.475135                                                                                                       | 7        pdf        g1 b   6.43375e+00
+nchi2   = 34.290726                                                                                                       | 8        pdf        s1 N   3.34990e-02
+chi2tot = 3380.095655                                                                                                     | 9        pdf        s1 a  -7.35158e-01
+dchi2(iter)  = inf                                                                                                        | 10        pdf        s1 b   9.99597e+00
+dchi2(local) = -621.769238                                                                                                | 11        pdf      sea1 N   1.08937e-02
+pdf dv(1):1.000000                                                                                                        | 12        pdf      sea1 a  -1.25828e+00
+pdf db-ub(2):0.021796                                                                                                     | 13        pdf      sea1 b   8.08644e+00
+pdf msr:1.000000                                                                                                          | 14        pdf       ub1 N   7.85538e-03
+pdf db-ub(1):0.013576                                                                                                     | 15        pdf       ub1 a  -8.93654e-01
+pdf uv(1):2.000000                                                                                                        | 16        pdf       ub1 b   2.43370e+00
+pdf s-sb(1):0.000000                                                                                                      | 17        pdf       uv1 a  -1.35324e-01
+pdf s-sb(2):0.000000                                                                                                      | 18        pdf       uv1 b   3.11279e+00
+                                                                                                                          | 19       norm       idis      10016  1.01879e+00
+reaction: unpol DIS                                                                                                       | 20       norm       idis      10017  1.04201e+00
+filters: Q2>1.690000                                                                                                      | 21       norm       idis      10010  1.06945e+00
+filters: W2>10.000000                                                                                                     | 22       norm       idis      10011  1.06560e+00
+    idx tar        col  npts       chi2  chi2-npts      rchi2      nchi2                                                  | 23       norm       idis      10020  1.04944e+00
+  10016   p      BCDMS   348     868.53     520.53      29.74       0.39                                                  | 
+  10017   d      BCDMS   254     569.91     315.91      18.84       1.96                                                  | 
+  10020   p        NMC   273     676.21     403.21      15.76       6.11                                                  | 
+  10021 d/p        NMC   174     357.34     183.34      13.13       0.00                                                  | 
+  10010   p       SLAC   218     437.32     219.32       0.00      10.94                                                  | 
+  10011   d       SLAC   228     359.03     131.03       0.00      14.89                                                  | 
+['pdf']
+JAM FITTER                                                                                                                | 1        pdf       db1 N   2.37407e-02
+count = 400                                                                                                               | 2        pdf       db1 a  -1.52260e-01
+elapsed time(mins)=1.832404                                                                                               | 3        pdf       db1 b   3.58964e+00
+shifts  = 2                                                                                                               | 4        pdf       dv1 a  -1.82987e-01
+npts    = 1495                                                                                                            | 5        pdf       dv1 b   5.08130e+00
+chi2    = 3213.795084                                                                                                     | 6        pdf        g1 a  -3.40433e-01
+rchi2   = 78.244605                                                                                                       | 7        pdf        g1 b   4.32382e+00
+nchi2   = 3.798353                                                                                                        | 8        pdf        s1 N   7.13848e-02
+chi2tot = 3295.838043                                                                                                     | 9        pdf        s1 a  -9.86097e-01
+dchi2(iter)  = inf                                                                                                        | 10        pdf        s1 b   9.99955e+00
+dchi2(local) = -706.026850                                                                                                | 11        pdf      sea1 N   4.54593e-03
+pdf dv(1):1.000000                                                                                                        | 12        pdf      sea1 a  -1.26461e+00
+pdf db-ub(2):0.023541                                                                                                     | 13        pdf      sea1 b   9.65670e+00
+pdf msr:1.000000                                                                                                          | 14        pdf       ub1 N   1.99514e-04
+pdf db-ub(1):0.127110                                                                                                     | 15        pdf       ub1 a  -9.66199e-01
+pdf uv(1):2.000000                                                                                                        | 16        pdf       ub1 b   3.22910e+00
+pdf s-sb(1):-0.000000                                          [H[J[H[J                                                           | 17        pdf       uv1 a  -1.42243e-01
+pdf s-sb(2):-0.000000                                                                                                     | 18        pdf       uv1 b   3.10712e+00
+                                                                                                                          | 19       norm       idis      10016  9.83444e-01
+reaction: unpol DIS                                                                                                       | 20       norm       idis      10017  1.00406e+00
+filters: Q2>1.690000                                                                                                      | 21       norm       idis      10010  1.02691e+00
+filters: W2>10.000000                                                                                                     | 22       norm       idis      10011  1.02122e+00
+    idx tar        col  npts       chi2  chi2-npts      rchi2      nchi2                                                  | 23       norm       idis      10020  1.01049e+00
+  10016   p      BCDMS   348     844.31     496.31      30.34       0.30                                                  | 
+  10017   d      BCDMS   254     564.64     310.64      21.90       0.02                                                  | 
+  10020   p        NMC   273     683.32     410.32      19.17       0.28                                                  | 
+  10021 d/p        NMC   174     338.62     164.62       6.83       0.00                                                  | 
+  10010   p       SLAC   218     426.04     208.04       0.00       1.64                                                  | 
+  10011   d       SLAC   228     356.85     128.85       0.00       1.56                                                  | 
+['pdf']
+JAM FITTER                                                                                                                | 1        pdf       db1 N   2.75801e-02
+count = 500                                                                                                               | 2        pdf       db1 a  -1.33901e-01
+elapsed time(mins)=2.288738                                                                                               | 3        pdf       db1 b   3.79158e+00
+shifts  = 2                                                                                                               | 4        pdf       dv1 a  -2.38421e-01
+npts    = 1495                                                                                                            | 5        pdf       dv1 b   5.01165e+00
+chi2    = 3209.376324                                                                                                     | 6        pdf        g1 a  -5.29552e-01
+rchi2   = 70.061452                                                                                                       | 7        pdf        g1 b   3.42988e+00
+nchi2   = 5.764099                                                                                                        | 8        pdf        s1 N   3.18350e-02
+chi2tot = 3285.201874                                                                                                     | 9        pdf        s1 a  -9.81180e-01
+dchi2(iter)  = inf                                                                                                        | 10        pdf        s1 b   1.00000e+01
+dchi2(local) = -716.663019                                                                                                | 11        pdf      sea1 N   1.03344e-02
+pdf dv(1):1.000000                                                                                                        | 12        pdf      sea1 a  -1.12316e+00
+pdf db-ub(2):0.026130                                                                                                     | 13        pdf      sea1 b   9.99981e+00
+pdf msr:1.000000                                                                                                          | 14        pdf       ub1 N   1.44983e-03
+pdf db-ub(1):-39.633624                                                                                                   | 15        pdf       ub1 a  -9.99690e-01
+pdf uv(1):2.000000                                                                                                        | 16        pdf       ub1 b   7.50269e+00
+pdf s-sb(1):0.000000                                                                                                      | 17        pdf       uv1 a  -1.38010e-01
+pdf s-sb(2):0.000000                                                                                                      | 18        pdf       uv1 b   3.10877e+00
+                                                                                                                          | 19       norm       idis      10016  9.94158e-01
+reaction: unpol DIS                                                                                                       | 20       norm       idis      10017  1.01472e+00
+filters: Q2>1.690000                                                                                                      | 21       norm       idis      10010  1.03272e+00
+filters: W2>10.000000                                                                                                     | 22       norm       idis      10011  1.02594e+00
+    idx tar        col  npts       chi2  chi2-npts      rchi2      nchi2                                                  | 23       norm       idis      10020  1.01708e+00
+  10016   p      BCDMS   348     844.69     496.69      27.48       0.04                                                  | 
+  10017   d      BCDMS   254     562.10     308.10      20.18       0.24                                                  | 
+  10020   p        NMC   273     682.52     409.52      15.85       0.73                                                  | 
+  10021 d/p        NMC   174     336.45     162.45       6.54       0.00                                                  | 
+  10010   p       SLAC   218     427.32     209.32       0.00       2.43                                                  | 
+  10011   d       SLAC   228     356.30     128.30       0.00       2.33                                                  | 
+['pdf']
+JAM FITTER                                                                                                                | 1        pdf       db1 N   3.00459e-02
+count = 600                                                                                                               | 2        pdf       db1 a  -2.67313e-01
+elapsed time(mins)=2.746676                                                                                               | 3        pdf       db1 b   4.07570e+00
+shifts  = 2                                                                                                               | 4        pdf       dv1 a  -3.19470e-01
+npts    = 1495                                                                                                            | 5        pdf       dv1 b   4.51936e+00
+chi2    = 3204.105267                                                                                                     | 6        pdf        g1 a  -5.79671e-01
+rchi2   = 67.973832                                                                                                       | 7        pdf        g1 b   3.15887e+00
+nchi2   = 4.968530                                                                                                        | 8        pdf        s1 N   2.27444e-02
+chi2tot = 3277.047629                                                                                                     | 9        pdf        s1 a  -9.18136e-01
+dchi2(iter)  = inf                                                                                                        | 10        pdf        s1 b   1.00000e+01
+dchi2(local) = -724.817265                                                                                 [H[J[H[J               | 11        pdf      sea1 N   1.03501e-02
+pdf dv(1):1.000000                                                                                                        | 12        pdf      sea1 a  -1.14299e+00
+pdf db-ub(2):0.027002                                                                                                     | 13        pdf      sea1 b   9.99995e+00
+pdf msr:1.000000                                                                                                          | 14        pdf       ub1 N   3.04376e-03
+pdf db-ub(1):-366.685784                                                                                                  | 15        pdf       ub1 a  -9.99909e-01
+pdf uv(1):2.000000                                                                                                        | 16        pdf       ub1 b   9.96668e+00
+pdf s-sb(1):0.000000                                                                                                      | 17        pdf       uv1 a  -1.38363e-01
+pdf s-sb(2):0.000000                                                                                                      | 18        pdf       uv1 b   3.11058e+00
+                                                                                                                          | 19       norm       idis      10016  9.94638e-01
+reaction: unpol DIS                                                                                                       | 20       norm       idis      10017  1.01475e+00
+filters: Q2>1.690000                                                                                                      | 21       norm       idis      10010  1.03094e+00
+filters: W2>10.000000                                                                                                     | 22       norm       idis      10011  1.02329e+00
+    idx tar        col  npts       chi2  chi2-npts      rchi2      nchi2                                                  | 23       norm       idis      10020  1.01609e+00
+  10016   p      BCDMS   348     845.04     497.04      26.13       0.03                                                  | 
+  10017   d      BCDMS   254     560.32     306.32      19.73       0.24                                                  | 
+  10020   p        NMC   273     680.36     407.36      15.17       0.65                                                  | 
+  10021 d/p        NMC   174     338.15     164.15       6.94       0.00                                                  | 
+  10010   p       SLAC   218     426.97     208.97       0.00       2.17                                                  | 
+  10011   d       SLAC   228     353.27     125.27       0.00       1.88                                                  | 
+['pdf']
+JAM FITTER                                                                                                                | 1        pdf       db1 N   2.99703e-02
+count = 700                                                                                                               | 2        pdf       db1 a  -3.28771e-01
+elapsed time(mins)=3.206654                                                                                               | 3        pdf       db1 b   4.32106e+00
+shifts  = 2                                                                                                               | 4        pdf       dv1 a  -3.32796e-01
+npts    = 1495                                                                                                            | 5        pdf       dv1 b   4.29172e+00
+chi2    = 3203.317011                                                                                                     | 6        pdf        g1 a  -5.76777e-01
+rchi2   = 68.351252                                                                                                       | 7        pdf        g1 b   3.20836e+00
+nchi2   = 5.087946                                                                                                        | 8        pdf        s1 N   2.59647e-02
+chi2tot = 3276.756209                                                                                                     | 9        pdf        s1 a  -9.57626e-01
+dchi2(iter)  = inf                                                                                                        | 10        pdf        s1 b   1.00000e+01
+dchi2(local) = -725.108684                                                                                                | 11        pdf      sea1 N   9.05300e-03
+pdf dv(1):1.000000                                                                                                        | 12        pdf      sea1 a  -1.17028e+00
+pdf db-ub(2):0.025938                                                                                                     | 13        pdf      sea1 b   9.99999e+00
+pdf msr:1.000000                                                                                                          | 14        pdf       ub1 N   4.03224e-03
+pdf db-ub(1):-0.375313                                                                                                    | 15        pdf       ub1 a  -9.30664e-01
+pdf uv(1):2.000000                                                                                                        | 16        pdf       ub1 b   9.98502e+00
+pdf s-sb(1):0.000000                                                                                                      | 17        pdf       uv1 a  -1.37783e-01
+pdf s-sb(2):0.000000                                                                                                      | 18        pdf       uv1 b   3.11210e+00
+                                                                                                                          | 19       norm       idis      10016  9.94493e-01
+reaction: unpol DIS                                                                                                       | 20       norm       idis      10017  1.01452e+00
+filters: Q2>1.690000                                                                                                      | 21       norm       idis      10010  1.03138e+00
+filters: W2>10.000000                                                                                                     | 22       norm       idis      10011  1.02377e+00
+    idx tar        col  npts       chi2  chi2-npts      rchi2      nchi2                                                  | 23       norm       idis      10020  1.01591e+00
+  10016   p      BCDMS   348     844.88     496.88      26.17       0.03                                                  | 
+  10017   d      BCDMS   254     560.52     306.52      19.84       0.23                                                  | 
+  10020   p        NMC   273     679.60     406.60      15.37       0.63                                                  | 
+  10021 d/p        NMC   174     338.09     164.09       6.97       0.00                                                  | 
+  10010   p       SLAC   218     427.20     209.20       0.00       2.23                                                  | 
+  10011   d       SLAC   228     353.02     125.02       0.00       1.95                                                  | 
+['pdf']
+JAM FITTER                                                                                                                | 1        pdf       db1 N   2.98384e-02
+count = 800                                                                                                               | 2        pdf       db1 a  -3.27360e-01
+elapsed time(mins)=3.665198                                                                                               | 3        pdf       db1 b   4.29602e+00
+shifts  = 2                                                                                                               | 4        pdf       dv1 a  -3.29765e-01
+npts    = 1495                                                                                                            | 5        pdf       dv1[H[J b   4.31276e+00
+chi2    = 3203.613204                                                                                                     | 6        pdf        g1 a  -5.72706e-01
+rchi2   = 68.167794                                                                                                       | 7        pdf        g1 b   3.22326e+00
+nchi2   = 4.893687                                                                                                        | 8        pdf        s1 N   2.73633e-02
+chi2tot = 3276.674685                                                                                                     | 9        pdf        s1 a  -9.64852e-01
+dchi2(iter)  = inf                                                                                                        | 10        pdf        s1 b   1.00000e+01
+dchi2(local) = -725.190209                                                                                                | 11        pdf      sea1 N   8.86626e-03
+pdf dv(1):1.000000                                                                                                        | 12        pdf      sea1 a  -1.16959e+00
+pdf db-ub(2):0.025902                                                                                                     | 13        pdf      sea1 b   1.00000e+01
+pdf msr:1.000000                                                                                                          | 14        pdf       ub1 N   3.93617e-03
+pdf db-ub(1):-0.473611                                                                                                    | 15        pdf       ub1 a  -9.41058e-01
+pdf uv(1):2.000000                                                                                                        | 16        pdf       ub1 b   9.99795e+00
+pdf s-sb(1):0.000000                                                                                                      | 17        pdf       uv1 a  -1.38116e-01
+pdf s-sb(2):0.000000                                                                                                      | 18        pdf       uv1 b   3.11202e+00
+                                                                                                                          | 19       norm       idis      10016  9.93914e-01
+reaction: unpol DIS                                                                                                       | 20       norm       idis      10017  1.01391e+00
+filters: Q2>1.690000                                                                                                      | 21       norm       idis      10010  1.03089e+00
+filters: W2>10.000000                                                                                                     | 22       norm       idis      10011  1.02329e+00
+    idx tar        col  npts       chi2  chi2-npts      rchi2      nchi2                                                  | 23       norm       idis      10020  1.01545e+00
+  10016   p      BCDMS   348     844.52     496.52      26.14       0.04                                                  | 
+  10017   d      BCDMS   254     560.44     306.44      19.82       0.21                                                  | 
+  10020   p        NMC   273     680.04     407.04      15.30       0.60                                                  | 
+  10021 d/p        NMC   174     338.06     164.06       6.91       0.00                                                  | 
+  10010   p       SLAC   218     427.27     209.27       0.00       2.16                                                  | 
+  10011   d       SLAC   228     353.28     125.28       0.00       1.88                                                  | 
+['pdf']
+JAM FITTER                                                                                                                | 1        pdf       db1 N   3.00581e-02
+count = 900                                                                                                               | 2        pdf       db1 a  -3.24332e-01
+elapsed time(mins)=4.123086                                                                                               | 3        pdf       db1 b   4.30393e+00
+shifts  = 2                                                                                                               | 4        pdf       dv1 a  -3.32986e-01
+npts    = 1495                                                                                                            | 5        pdf       dv1 b   4.30641e+00
+chi2    = 3203.626671                                                                                                     | 6        pdf        g1 a  -5.72442e-01
+rchi2   = 68.172518                                                                                                       | 7        pdf        g1 b   3.22391e+00
+nchi2   = 4.868595                                                                                                        | 8        pdf        s1 N   2.75308e-02
+chi2tot = 3276.667785                                                                                                     | 9        pdf        s1 a  -9.69880e-01
+dchi2(iter)  = inf                                                                                                        | 10        pdf        s1 b   1.00000e+01
+dchi2(local) = -725.197108                                                                                                | 11        pdf      sea1 N   8.79993e-03
+pdf dv(1):1.000000                                                                                                        | 12        pdf      sea1 a  -1.16966e+00
+pdf db-ub(2):0.026082                                                                                                     | 13        pdf      sea1 b   1.00000e+01
+pdf msr:1.000000                                                                                                          | 14        pdf       ub1 N   3.97563e-03
+pdf db-ub(1):-0.454544                                                                                                    | 15        pdf       ub1 a  -9.38972e-01
+pdf uv(1):2.000000                                                                                                        | 16        pdf       ub1 b   9.99980e+00
+pdf s-sb(1):0.000000                                                                                                      | 17        pdf       uv1 a  -1.38148e-01
+pdf s-sb(2):0.000000                                                                                                      | 18        pdf       uv1 b   3.11205e+00
+                                                                                                                          | 19       norm       idis      10016  9.93849e-01
+reaction: unpol DIS                                                                                                       | 20       norm       idis      10017  1.01384e+00
+filters: Q2>1.690000                                                                                                      | 21       norm       idis      10010  1.03082e+00
+filters: W2>10.000000                                                                                                     | 22       norm       idis      10011  1.02323e+00
+    idx tar        col  npts       chi2  chi2-npts      rchi2      nchi2                                                  | 23       norm       idis      10020  1.01540e+00
+  10016   p      BCDMS   348     844.49     496.49      26.13       0.04                                                  | 
+  10017   d      BCDMS   254     560.46     306.46      19.83       0.21                                                  | 
+  10020   p        NMC   273     680.07     407.07      15.30       0.59                                                  | 
+  10021 d/p        NMC   174     338.06     164.06       6.91       0.00                                                  | 
+  10010   p       SLAC   218     427.28     209.28       0.00       2.15                                            [H[J[H[J      | 
+  10011   d       SLAC   228     353.27     125.27       0.00       1.87                                                  | 
+['pdf']
+JAM FITTER                                                                                                                | 1        pdf       db1 N   2.97895e-02
+count = 1000                                                                                                              | 2        pdf       db1 a  -3.30064e-01
+elapsed time(mins)=4.569769                                                                                               | 3        pdf       db1 b   4.30737e+00
+shifts  = 2                                                                                                               | 4        pdf       dv1 a  -3.29660e-01
+npts    = 1495                                                                                                            | 5        pdf       dv1 b   4.30485e+00
+chi2    = 3203.623086                                                                                                     | 6        pdf        g1 a  -5.72494e-01
+rchi2   = 68.171636                                                                                                       | 7        pdf        g1 b   3.22384e+00
+nchi2   = 4.872283                                                                                                        | 8        pdf        s1 N   2.75089e-02
+chi2tot = 3276.667005                                                                                                     | 9        pdf        s1 a  -9.69024e-01
+dchi2(iter)  = inf                                                                                                        | 10        pdf        s1 b   1.00000e+01
+dchi2(local) = -725.197888                                                                                                | 11        pdf      sea1 N   8.81014e-03
+pdf dv(1):1.000000                                                                                                        | 12        pdf      sea1 a  -1.16968e+00
+pdf db-ub(2):0.025821                                                                                                     | 13        pdf      sea1 b   1.00000e+01
+pdf msr:1.000000                                                                                                          | 14        pdf       ub1 N   3.96882e-03
+pdf db-ub(1):-0.457387                                                                                                    | 15        pdf       ub1 a  -9.39299e-01
+pdf uv(1):2.000000                                                                                                        | 16        pdf       ub1 b   9.99995e+00
+pdf s-sb(1):0.000000                                                                                                      | 17        pdf       uv1 a  -1.38143e-01
+pdf s-sb(2):0.000000                                                                                                      | 18        pdf       uv1 b   3.11205e+00
+                                                                                                                          | 19       norm       idis      10016  9.93858e-01
+reaction: unpol DIS                                                                                                       | 20       norm       idis      10017  1.01385e+00
+filters: Q2>1.690000                                                                                                      | 21       norm       idis      10010  1.03083e+00
+filters: W2>10.000000                                                                                                     | 22       norm       idis      10011  1.02324e+00
+    idx tar        col  npts       chi2  chi2-npts      rchi2      nchi2                                                  | 23       norm       idis      10020  1.01540e+00
+  10016   p      BCDMS   348     844.49     496.49      26.13       0.04                                                  | 
+  10017   d      BCDMS   254     560.46     306.46      19.83       0.21                                                  | 
+  10020   p        NMC   273     680.06     407.06      15.30       0.59                                                  | 
+  10021 d/p        NMC   174     338.06     164.06       6.91       0.00                                                  | 
+  10010   p       SLAC   218     427.28     209.28       0.00       2.16                                                  | 
+  10011   d       SLAC   228     353.27     125.27       0.00       1.87                                                  | 
+['pdf']
+JAM FITTER                                                                                                                | 1        pdf       db1 N   2.97862e-02
+count = 1088                                                                                                              | 2        pdf       db1 a  -3.30704e-01
+elapsed time(mins)=4.943326                                                                                               | 3        pdf       db1 b   4.30275e+00
+shifts  = 2                                                                                                               | 4        pdf       dv1 a  -3.29317e-01
+npts    = 1495                                                                                                            | 5        pdf       dv1 b   4.30731e+00
+chi2    = 3203.626979                                                                                                     | 6        pdf        g1 a  -5.72441e-01
+rchi2   = 68.171772                                                                                                       | 7        pdf        g1 b   3.22389e+00
+nchi2   = 4.868099                                                                                                        | 8        pdf        s1 N   2.75257e-02
+chi2tot = 3276.666851                                                                                                     | 9        pdf        s1 a  -9.69294e-01
+dchi2(iter)  = inf                                                                                                        | 10        pdf        s1 b   1.00000e+01
+dchi2(local) = -725.198043                                                                                                | 11        pdf      sea1 N   8.80702e-03
+pdf dv(1):1.000000                                                                                                        | 12        pdf      sea1 a  -1.16962e+00
+pdf db-ub(2):0.025818                                                                                                     | 13        pdf      sea1 b   1.00000e+01
+pdf msr:1.000000                                                                                                          | 14        pdf       ub1 N   3.96813e-03
+pdf db-ub(1):-0.458285                                                                                                    | 15        pdf       ub1 a  -9.39384e-01
+pdf uv(1):2.000000                                                                                                        | 16        pdf       ub1 b   1.00000e+01
+pdf s-sb(1):0.000000                                                                                                      | 17        pdf       uv1 a  -1.38151e-01
+pdf s-sb(2):0.000000                                                                                                      | 18        pdf       uv1 b   3.11204e+00
+                                                                                                                          | 19       norm       idis      10016  9.93847e-01
+reaction: unpol DIS                                                                                                       | 20       norm       idis      10017  1.01384e+00
+filters: Q2>1.690000                                                                                                      | 21       norm       idis      10010  1.03082e+00
+filters: W2>10.000000                                                                                                     | 22       norm       idis      10011  1.02323e+00
+    idx tar        col  npts       chi2  chi2-npts      rchi2      nchi2                                                  | 23       norm       idis      10020  1.01540e+00
+  10016   p      BCDMS   348     844.49     496.49      26.13       0.04                                                  | 
+  10017   d      BCDMS   254     560.45     306.45      19.83       0.21                                                  | 
+  10020   p        NMC   273     680.07     407.07      15.30       0.59                                                  | 
+  10021 d/p        NMC   174     338.06     164.06       6.91       0.00                                                  | 
+  10010   p       SLAC   218     427.28     209.28       0.00       2.15                                                  | 
+  10011   d       SLAC   228     353.27     125.27       0.00       1.87                                                  | 
