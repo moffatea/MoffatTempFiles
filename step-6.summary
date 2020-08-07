@@ -1,0 +1,70 @@
+JAM FITTER
+count = 61251
+elapsed time(mins)=317.481178
+shifts  = 1
+npts    = 213
+chi2    = 326.066743
+rchi2   = 0.000000
+nchi2   = 12.893310
+chi2tot = 338.960053
+dchi2(iter)  = 0.007015
+dchi2(local) = -0.000158
+pdf dv(1):1.000000
+pdf db-ub(2):0.005346
+pdf msr:1.000000
+pdf db-ub(1):0.092526
+pdf uv(1):2.000000
+pdf s-sb(1):0.000000
+pdf s-sb(2):0.003382
+
+reaction: sia
+filters: z>0.2 and z<0.9
+    idx rs       col       had npts      chi2 chi2-npts chi2/npts     rchi2     nchi2
+   2002 14     TASSO      kaon    2      1.38     -0.62      0.69      0.00      0.04
+   2003 22     TASSO      kaon    2      0.68     -1.32      0.34      0.00      0.04
+   2005 34     TASSO      kaon    2      2.90      0.90      1.45      0.00      0.13
+   2007 29       TPC      kaon    2      5.95      3.95      2.98      0.00      0.00
+   2008 29       TPC      kaon    7     50.86     43.86      7.27      0.00      0.00
+   2013 58     TOPAZ      kaon    1      1.59      0.59      1.59      0.00      0.00
+   2014 91       SLD      kaon   15     26.34     11.34      1.76      0.00      0.01
+   2016 91    SLD(c)      kaon   15     23.98      8.98      1.60      0.00      0.07
+   2017 91    SLD(b)      kaon   15     23.05      8.05      1.54      0.00      0.29
+   2018 91     ALEPH      kaon    5     11.26      6.26      2.25      0.00      0.00
+   2019 91      OPAL      kaon    6     10.76      4.76      1.79      0.00      0.00
+   2023 91   OPAL(c)      kaon    5     13.33      8.33      2.67      0.00      6.29
+   2024 91   OPAL(b)      kaon    5     13.70      8.70      2.74      0.00      5.77
+   2025 91    DELPHI      kaon    6     10.30      4.30      1.72      0.00      0.00
+   2027 91 DELPHI(b)      kaon    6      7.42      1.42      1.24      0.00      0.00
+   2028 11     BABAR      kaon   28     31.55      3.55      1.13      0.00      0.00
+   2029 11     BELLE      kaon   70     72.91      2.91      1.04      0.00      0.00
+   2030 10     ARGUS      kaon   15     14.98     -0.02      1.00      0.00      0.26
+   2031 91    DELPHI      kaon    6      3.12     -2.88      0.52      0.00      0.00
+1     ffkaon        b1 N   8.89352e-02
+2     ffkaon        b1 a  -1.14401e+00
+3     ffkaon        b1 b   4.73656e+00
+4     ffkaon        c1 N   8.75266e-02
+5     ffkaon        c1 a  -3.26545e-02
+6     ffkaon        c1 b   3.70960e+00
+7     ffkaon        d1 N   1.17694e-01
+8     ffkaon        d1 a  -8.58312e-01
+9     ffkaon        d1 b   1.24569e+00
+10     ffkaon        g1 N   1.65841e-01
+11     ffkaon        g1 a  -9.81181e-01
+12     ffkaon        g1 b   1.00000e+01
+13     ffkaon       sb1 N   3.49293e-02
+14     ffkaon       sb1 a   8.94613e-01
+15     ffkaon       sb1 b   9.83925e+00
+16     ffkaon        u1 N   4.45356e-02
+17     ffkaon        u1 a   2.00000e+00
+18     ffkaon        u1 b   1.00000e+01
+19       norm        sia       2030  1.00924e+00
+20       norm        sia       2002  9.83623e-01
+21       norm        sia       2003  1.01206e+00
+22       norm        sia       2005  1.02132e+00
+23       norm        sia       2014  9.99217e-01
+24       norm        sia       2016  9.97444e-01
+25       norm        sia       2017  9.94606e-01
+26       norm        sia       2018  9.98799e-01
+27       norm        sia       2023  1.25079e+00
+28       norm        sia       2024  1.24031e+00
+29       norm        sia       2028  1.00039e+00
